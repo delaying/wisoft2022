@@ -23,13 +23,6 @@ body {
 }
 
 
-.navbar {
-  background: url("/web/20210808074934im_/https://wisoft.io/images/bg2.jpg") no-repeat center center fixed;
-  background-size: cover;
-  padding: 0 !important;
-  font-family: "century gothic", sans-serif;
-  line-height: normal;
-}
 
 .navbar-brand img {
   height: 40px;
@@ -56,6 +49,46 @@ body {
   color: white;
   font-size: 30px !important;
 }
+
+
+
+
+
+/*테스트*/
+.typed-cursor {
+  opacity: 1;
+}
+
+.typed-cursor.typed-cursor--blink {
+  animation: typedjsBlink 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
+}
+
+@keyframes typedjsBlink {
+  50% {
+    opacity: 0.0;
+  }
+}
+
+@-webkit-keyframes typedjsBlink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
 
 
 /* banner */
@@ -101,7 +134,6 @@ body {
 }
 
 .arrow {
-  background: url("/web/20210808074934im_/https://wisoft.io/images/arrow.png");
   position: absolute;
   font-size: 32px !important;
   /*height: 32px;*/
