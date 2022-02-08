@@ -24,7 +24,7 @@ body {
 
 
 .navbar {
-  background: url("background-image-1920.jpg") no-repeat center center fixed;
+  background: url("/web/20210808074934im_/https://wisoft.io/images/bg2.jpg") no-repeat center center fixed;
   background-size: cover;
   padding: 0 !important;
   font-family: "century gothic", sans-serif;
@@ -64,7 +64,7 @@ body {
   top: -60px;
   position: relative;
   /*background-color: ghostwhite;*/
-  background: url("/web/20210808074934im_/https://wisoft.io/images/bg2.jpg") no-repeat center center fixed;
+  background: url("background-image-1920.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
