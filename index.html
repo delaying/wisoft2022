@@ -14,6 +14,7 @@
     <script type="text/javascript" src="js/bundle-playback.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/wombat.js" charset="utf-8"></script>
 
+
     <link rel="stylesheet" type="text/css" href="css/banner-styles.css">
     <link rel="stylesheet" type="text/css" href="css/iconochive.css">
 
@@ -33,20 +34,22 @@
     <script type="text/javascript" src="./WiSoft.io_files/sdk.js"></script>
     <link rel="stylesheet" href="css/all.css" integrity="" crossorigin="anonymous">
 
+<!--    font awesome 사용-->
+    <script src="https://kit.fontawesome.com/c3e73d2b35.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
 
 
-<!--<script>__wm.rw(0);</script>-->
-<!--<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 1px;">-->
-<!--</div>-->
-<!--<div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210808074934/https://wisoft.io/</div>-->
-<!--<script type="text/javascript">-->
-<!--    __wm.bt(675, 27, 25, 2, "web", "https://wisoft.io/", "20210808074934", 1996, "/_static/", ["/_static/css/banner-styles.css?v=fantwOh2", "/_static/css/iconochive.css?v=qtvMKcIJ"], false);-->
-<!--    __wm.rw(1);-->
-<!--</script>-->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr; height: 1px;">
+</div>
+<div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20210808074934/https://wisoft.io/</div>
+<script type="text/javascript">
+    __wm.bt(675, 27, 25, 2, "web", "https://wisoft.io/", "20210808074934", 1996, "/_static/", ["/_static/css/banner-styles.css?v=fantwOh2", "/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+    __wm.rw(1);
+</script>
 <!-- END WAYBACK TOOLBAR INSERT -->
 
 <!--Navigation Bar-->
@@ -70,9 +73,7 @@
             </div>
         </div>
         <div class="scroll-down">
-            <i class="fal fa-angle-down arrow" >
-              down
-            </i>
+            <i class="fas fa-angle-double-down arrow"></i>
         </div>
     </div>
     <script>
@@ -123,7 +124,8 @@
         <h1 style="font-weight: 700; padding-top: 50px">Lectures</h1>
         <div class="row">
             <div class="col-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+<!--                active 클래스가 추가되면 파란박스생김-->
+                <div class="nav flex-column nav-pills" id="v-pills-tab lecture-bar" role="tablist" aria-orientation="vertical">
                     <a class="nav-link active" id="v-pills-ds-tab" data-toggle="pill"
                        href="https://web.archive.org/web/20210808074934/https://wisoft.io/#index.html" role="tab"
                        aria-controls="v-pills-ds" aria-selected="true">Data Structure</a>
@@ -144,9 +146,11 @@
                        aria-controls="v-pills-sp" aria-selected="false">Multidisciplinary Capstone Design</a>
                 </div>
             </div>
+
+<!--            글 바뀌는 클래스는 show active가 추가되면 바뀜!-->
             <div class="col-9">
                 <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-ds" role="tabpanel"
+                    <div class="tab-pane fade show active lecture-contain" id="v-pills-ds" role="tabpanel"
                          aria-labelledby="v-pills-ds-tab">
                         <h4>자료구조</h4>
                         <p>자료구조 개념과 자료구조를 메모리에 표현하는 방법과 이와 관련된 알고리즘에 대한 이론 및 응용문제들을 다 룬다. 순서리스트, 연결 리스트의 C 언어를 이용한 구현
@@ -229,6 +233,9 @@
     </div>
     <img class="layer-seminar" src="images/layer.png" alt="">
 </section>
+
+
+
 <!--Seminar-->
 <section id="seminar">
     <div class="container">
@@ -255,7 +262,7 @@
                                     <div class="card-body" style="padding: 8px 12px">
                                         <h5 class="card-title" style="margin: 0 !important;">Database</h5>
                                         <p class="card-text" style="height: 35px">
-                                            <a href="https://web.archive.org/web/20210808074934/https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                            <a href="">
                                                 <img class="about-us-btn" src="images/about-us.svg">
                                                 See more
                                             </a>
@@ -274,7 +281,7 @@
                                     <div class="card-body" style="padding: 8px 12px">
                                         <h5 class="card-title" style="margin: 0 !important;">Design Patterns</h5>
                                         <p class="card-text" style="height: 35px">
-                                            <a href="https://web.archive.org/web/20210808074934/https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                            <a href="">
                                                 <img class="about-us-btn" src="images/about-us.svg">
                                                 See more
                                             </a>
@@ -293,7 +300,7 @@
                                     <div class="card-body" style="padding: 8px 12px">
                                         <h5 class="card-title" style="margin: 0 !important;">HTTP &amp; Network</h5>
                                         <p class="card-text" style="height: 35px">
-                                            <a href="https://web.archive.org/web/20210808074934/https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                            <a href="">
                                                 <img class="about-us-btn" src="images/about-us.svg">
                                                 See more
                                             </a>
@@ -318,7 +325,7 @@
                                     <div class="card-body" style="padding: 8px 12px">
                                         <h5 class="card-title" style="margin: 0 !important;">Java</h5>
                                         <p class="card-text" style="height: 35px">
-                                            <a href="https://web.archive.org/web/20210808074934/https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                            <a href="">
                                                 <img class="about-us-btn" src="images/about-us.svg">
                                                 See more
                                             </a>
@@ -337,7 +344,7 @@
                                     <div class="card-body" style="padding: 8px 12px">
                                         <h5 class="card-title" style="margin: 0 !important;">MicroServices Patterns</h5>
                                         <p class="card-text" style="height: 35px">
-                                            <a href="https://web.archive.org/web/20210808074934/https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                            <a href="">
                                                 <img class="about-us-btn" src="images/about-us.svg">
                                                 See more
                                             </a>
@@ -355,7 +362,7 @@
                                     <div class="card-body" style="padding: 8px 12px">
                                         <h5 class="card-title" style="margin: 0 !important;">Spring Framework</h5>
                                         <p class="card-text" style="height: 35px">
-                                            <a href="https://web.archive.org/web/20210808074934/https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                            <a href="">
                                                 <img class="about-us-btn" src="images/about-us.svg">
                                                 See more
                                             </a>
@@ -443,30 +450,24 @@
                 <b>Services</b>
                 <div>
                     <a style="margin-top: 5px; font-size: 24px"
-                       href="https://web.archive.org/web/20210808074934/https://git.wisoft.io/index.html"
-                       class="fab fa-gitlab">&nbsp;&nbsp;</a>
+                       href=""><i class="fab fa-gitlab"></i>&nbsp;&nbsp;</a>
                     <a style="font-size: 24px"
-                       href="https://web.archive.org/web/20210808074934/https://nexus.wisoft.io/index.html"><img
+                       href=""><img
                             style="width: 24px;vertical-align: text-top" src="images/nexus.svg">&nbsp;&nbsp;</a>
                     <a style="font-size: 24px"
-                       href="https://web.archive.org/web/20210808074934/https://ci.wisoft.io/index.html"
+                       href=""
                        class="fab fa-jenkins">&nbsp;&nbsp;</a>
                     <a style="font-size: 24px"
-                       href="https://web.archive.org/web/20210808074934/https://docker.wisoft.io/index.html"
+                       href=""
                        class="fab fa-docker"></a>
                 </div>
             </div>
             <div class="col-md-3">
                 <b>Communication</b>
                 <br style="margin-bottom: 20px">&nbsp;
-                <a style="margin-top: 5px; font-size: 24px"
-                   href="https://web.archive.org/web/20210808074934/https://fb.com/wisoftlabs" class="fab fa-facebook">&nbsp;&nbsp;</a>
-                <a style="font-size: 24px"
-                   href="https://web.archive.org/web/20210808074934/https://twitter.com/wisoftlabs"
-                   class="fab fa-twitter">&nbsp;&nbsp;</a>
-                <a style="font-size: 24px"
-                   href="https://web.archive.org/web/20210808074934/https://instagram.com/wisoftlabs"
-                   class="fab fa-instagram">&nbsp;&nbsp;</a>
+                <a href=""><img style="width: 24px;vertical-align: text-top" src="images/facebook-circular-logo.png">&nbsp;&nbsp;</a>
+                <a href=""> <img style="width: 24px;vertical-align: text-top" src="images/twitter.png">&nbsp;&nbsp;</a>
+                <a href=""><img style="width: 24px;vertical-align: text-top" src="images/instagram.png">&nbsp;</a>
             </div>
             <div class="col-md-3">
                 <ul class="fa-ul">

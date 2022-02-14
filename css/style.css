@@ -135,9 +135,7 @@ body {
 
 .arrow {
   position: absolute;
-  font-size: 32px !important;
-  /*height: 32px;*/
-  /*width: 32px;*/
+  font-size: 35px !important;
   left: 50%;
   color: white;
   animation: pulse 1.5s infinite;
