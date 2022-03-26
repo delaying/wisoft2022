@@ -105,7 +105,7 @@ body {
 
 @media screen and (max-width:480px)and (max-height:720px) {
   #banner {
-    background: url("../images/mobile_640.jpg") no-repeat center center fixed;
+    background: url("https://cdn.pixabay.com/photo/2019/12/17/05/11/night-4700759_960_720.jpg") no-repeat center center fixed;
     background-size: cover;
   }
 }
