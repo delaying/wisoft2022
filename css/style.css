@@ -103,6 +103,13 @@ body {
   overflow: hidden;
 }
 
+@media screen and (max-width:480px){
+  #banner {
+    background: url("../images/mobile_640.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
 .banner-title {
   position: absolute;
   width: 100%;
